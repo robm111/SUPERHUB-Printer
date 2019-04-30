@@ -49,10 +49,10 @@ class App:
      
      def __init__(self, master):
 
-          master.option_add('*font', ('verdana', 12, 'bold'))
+         master.option_add('*font', ('verdana', 12, 'bold'))
      master.configure(background="#CC0033")
-     master.grid_columnconfigure((0,11), weight=1)
-     master.grid_rowconfigure((0,12), weight=1)
+     master.grid_columnconfigure((0,12), weight=1)
+     master.grid_rowconfigure((0,10), weight=1)
 
           
      
@@ -66,64 +66,61 @@ class App:
      button4.grid(row=7, column=1, padx=30, pady=30)
      button5 = Button(master, text="1061", command=lambda : prnt_label("1061", "Columbus 16VSH2"))
      button5.grid(row=9, column=1, padx=30, pady=30)
-     button6 = Button(master, text="1063", command=lambda : prnt_label("1063", "Columbus 13"))
-     button6.grid(row=11, column=1, padx=30, pady=30)
 
+     button6 = Button(master, text="1063", command=lambda : prnt_label("1063", "Columbus 13"))
+     button6.grid(row=1, column=3, padx=30, pady=30)
      button7 = Button(master, text="1064", command=lambda : prnt_label("1064", "None specified"))
-     button7.grid(row=1, column=3, padx=30, pady=30)
+     button7.grid(row=3, column=3, padx=30, pady=30)
      button8 = Button(master, text="1083", command=lambda : prnt_label("1083", "None specified"))
-     button8.grid(row=3, column=3, padx=30, pady=30)
+     button8.grid(row=5, column=3, padx=30, pady=30)
      button9 = Button(master, text="1086", command=lambda : prnt_label("1086", "Columbus 14",))
-     button9.grid(row=5, column=3, padx=30, pady=30)
+     button9.grid(row=7, column=3, padx=30, pady=30)
      button10 = Button(master, text="2042", command=lambda : prnt_label("2042", "Columbus 17VSH3"))
-     button10.grid(row=7, column=3, padx=30, pady=30)
-     button11 = Button(master, text="6485", command=lambda : prnt_label("6485", "None specified"))
-     button11.grid(row=9, column=3, padx=30, pady=30)
-     button12 = Button(master, text="7524", command=lambda : prnt_label("7524", "Columbus 15",))
-     button12.grid(row=11, column=3, padx=30, pady=30)
-           
- 
+     button10.grid(row=9, column=3, padx=30, pady=30)
      
+     button11 = Button(master, text="6485", command=lambda : prnt_label("6485", "None specified"))
+     button11.grid(row=1, column=5, padx=30, pady=30)
+     button12 = Button(master, text="7524", command=lambda : prnt_label("7524", "Columbus 15",))
+     button12.grid(row=3, column=5, padx=30, pady=30)
      button13 = Button(master, text="7541", command=lambda : prnt_label("7541", "None specified"))
-     button13.grid(row=1, column=5, padx=30, pady=30)
+     button13.grid(row=5, column=5, padx=30, pady=30)
      button14 = Button(master, text="7545", command=lambda : prnt_label("7545", "PDQ Shuttle"))
-     button14.grid(row=3, column=5, padx=30, pady=30)
+     button14.grid(row=7, column=5, padx=30, pady=30)
      button15 = Button(master, text="7570", command=lambda : prnt_label("7570", "None specified"))
-     button15.grid(row=5, column=5, padx=30, pady=30)
+     button15.grid(row=9, column=5, padx=30, pady=30)
+     
      button16 = Button(master, text="7595", command=lambda : prnt_label("7595", "Columbus 12"))
-     button16.grid(row=7, column=5, padx=30, pady=30)
+     button16.grid(row=1, column=7, padx=30, pady=30)
      button17 = Button(master, text="7596", command=lambda : prnt_label("7596", "Columbus 11"))
-     button17.grid(row=9, column=5, padx=30, pady=30)
+     button17.grid(row=3, column=7, padx=30, pady=30)
      button18 = Button(master, text="7663", command=lambda : prnt_label("7663", "Columbus 15"))
-     button18.grid(row=11, column=5, padx=30, pady=30)
-    
+     button18.grid(row=5, column=7, padx=30, pady=30)
      button19 = Button(master, text="7665", command=lambda : prnt_label("7665", "Columbus 12"))
-     button19.grid(row=1, column=7, padx=30, pady=30)
+     button19.grid(row=7, column=7, padx=30, pady=30)
      button20 = Button(master, text="7674", command=lambda : prnt_label("7674", "PDQ Shuttle"))
-     button20.grid(row=3, column=7, padx=30, pady=30)
+     button20.grid(row=9, column=7, padx=30, pady=30)
+     
      button21 = Button(master, text="7752", command=lambda : prnt_label("7752", "Columbus 10"))
-     button21.grid(row=5, column=7, padx=30, pady=30)
+     button21.grid(row=1, column=9, padx=30, pady=30)
      button22 = Button(master, text="7754", command=lambda : prnt_label("7754", "None specified"))
-     button22.grid(row=7, column=7, padx=30, pady=30)
+     button22.grid(row=3, column=9, padx=30, pady=30)
      button23 = Button(master, text="7875", command=lambda : prnt_label("7875", "None specified"))
-     button23.grid(row=9, column=7, padx=30, pady=30)
+     button23.grid(row=5, column=9, padx=30, pady=30)
      button24 = Button(master, text="7876", command=lambda : prnt_label("7876", "None specified"))
-     button24.grid(row=11, column=7, padx=30, pady=30)
-    
- 
-        
+     button24.grid(row=7, column=9, padx=30, pady=30)
      button25 = Button(master, text="8103", command=lambda : prnt_label("8103", "Columbus 14"))
-     button25.grid(row=1, column=9, padx=30, pady=30)
+     button25.grid(row=9, column=9, padx=30, pady=30)
+     
      button26 = Button(master, text="8468", command=lambda : prnt_label("8468", "None specified"))
-     button26.grid(row=3, column=9, padx=30, pady=30)
+     button26.grid(row=1, column=11, padx=30, pady=30)
      button27 = Button(master, text="8476", command=lambda : prnt_label("8476", "Columbus 15"))
-     button27.grid(row=5, column=9, padx=30, pady=30)
+     button27.grid(row=3, column=11, padx=30, pady=30)
      button28 = Button(master, text="8956", command=lambda : prnt_label("8956", "Columbus 10"))
-     button28.grid(row=7, column=9, padx=30, pady=30)
+     button28.grid(row=5, column=11, padx=30, pady=30)     
 
      master.store_entry = StringVar()
      entry1 = Entry(master, textvariable=master.store_entry, width=4)
-     entry1.grid(row=11, column=9, padx=30, pady=30)
+     entry1.grid(row=9, column=11, padx=30, pady=30)
      
      def prnt_store(self):
          #store_Number = self.Entry.get()
